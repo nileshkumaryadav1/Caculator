@@ -26,8 +26,17 @@
     width: max-content;
     height: max-content;
     border: 1px solid grey;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 1px 1px 10px 1px black;
+}
+
+.ip{
+    display: flex;
+}
+
+.ip p{
+    width: 100%;
+    font-size: xx-large;
 }
 
 #input{
@@ -35,6 +44,8 @@
     width: 245px;
     margin-right: 10px;
     text-align: right;
+    cursor: auto;
+    background-color: white;
 }
 
 .cal-panal form input{
@@ -42,11 +53,16 @@
     width: 50px;
     margin: 5px;
     text-align: center;
+    cursor: pointer;
+}
+
+.num{
+    background-color: white;
 }
 
 .operator{
     color: blue;
-    background-color: rgb(255, 241, 241);
+    background-color: rgb(251, 242, 242);
 }
 
 .equal{
